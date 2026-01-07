@@ -1,47 +1,65 @@
-# ACED V7.0 - Autonomous Healing Engine (Unified Multi-Cloud Edition)
+# ACED V8.0 – Ultimate Production-Ready Autonomous Healing Engine
 
-Autonomous incident response engine that detects, simulates, and acts on security threats in real-time using Monte Carlo Tree Search (MCTS).
-
-Built to adapt, learn, and remediate incidents across AWS and Azure environments with configurable policies, parallel execution, and dry-run support.
-
----
-
-## 📸 Simulation Output
-
-Here’s a snapshot of ACED V7.0 running a high-severity incident simulation:
-
-![ACED V7.0 Output](screenshots/aced_v7_output.png)
-
-*Strategy: rotate keys, revoke credentials, isolate compromised resources. Confidence: 100%. Containment: False.*
+**Author:** Sinalo Maphanga  
+**Version:** 8.0.0 – Ultimate Production Edition  
+**License:** Commercial  
 
 ---
 
-## ✨ Features
+## 🚀 Overview
+ACED (Autonomous Cybersecurity Engine for Defense) is a **production-ready autonomous healing engine** designed to reduce Mean Time to Remediation (MTTR) in enterprise environments.  
+Built entirely in **pure Python** with **zero external dependencies**, ACED V8.0 integrates **Monte Carlo Tree Search (MCTS)** decision logic, **multi-cloud support**, and **policy-based RBAC constraints** to deliver real-time, self-learning incident response.
 
-- 🧠 Monte Carlo Tree Search (MCTS) for optimal remediation strategies  
-- 🔐 Actions: revoke credentials, rotate keys, isolate/snapshot/terminate resources, block IPs, observe  
-- ☁️ Multi-cloud execution (AWS + Azure) with dry-run mode for safe testing  
-- ⚖️ Adaptive reward function based on severity, business impact, and time  
-- ⚡ Parallel execution of independent actions  
-- 🛡️ Policy constraints to enforce safe automation  
-- 📊 Confidence scoring for each action based on historical success  
-- 📝 Incident replay logging with timezone-aware timestamps  
+---## 📊 Example Output
+
+Below is a screenshot of ACED V8.0 in action, showing the autonomous healing engine generating remediation strategies with confidence scoring and replay logging:
+
+![ACED V8.0 Screenshot](./screenshot.png)
+
+
+## ✨ Enterprise-Grade Features
+- ✅ Zero external dependencies (pure Python, no vendor lock-in)  
+- ✅ Multi-cloud support (AWS, Azure, GCP)  
+- ✅ Policy-based constraints with RBAC enforcement  
+- ✅ Self-learning from historical incidents (adaptive metrics)  
+- ✅ Parallel action execution for speed  
+- ✅ Rollback capability for all actions  
+- ✅ Complete audit trail with replay capability  
+- ✅ Confidence scoring and risk assessment  
+- ✅ Production-grade logging with rotation & error handling  
+- ✅ Metrics collection and performance tracking  
+- ✅ Dry-run mode with full simulation  
+- ✅ Real AWS/Azure API signatures for deployment readiness  
+- ✅ Cost estimation and ROI tracking for business alignment  
 
 ---
 
-## 📂 Project Structure
-
-- `aced_v7.py` → Main engine implementation  
-- `screenshots/` → Example output from live simulation  
-- Executors:
-  - `AWSExecutor` → Simulates AWS-specific actions  
-  - `AzureExecutor` → Simulates Azure-specific actions  
+## 🧠 Core Architecture
+- **MCTS Healing Engine** → Simulates thousands of possible remediation paths, selecting the optimal strategy under policy and business constraints.  
+- **Policy Manager (RBAC)** → Enforces role-based and environment-specific restrictions, ensuring safe execution in production.  
+- **Action Generator** → Produces remediation actions (credential revocation, isolation, termination, key rotation, IP blocking) with cost estimation.  
+- **System State Tracker** → Maintains complete resource, threat, and business impact state with caching and hashing for performance.  
+- **Audit & Metrics** → Logs every action, generates replayable incident trails, and tracks ROI/performance metrics.  
 
 ---
 
-## 🚀 Usage
+## 🔄 Evolution: V7.0 → V8.0
+- **V7.0**: Research-grade engine with adaptive reward functions, replay logging, and confidence scoring.  
+- **V8.0**: Hardened, enterprise-ready platform with RBAC, rollback, cost/ROI tracking, multi-cloud support, and production-grade logging.  
 
-Run the engine with Python 3.12+:
+---
 
+## 📊 Example Use Cases
+- **Cloud SOC Automation** → Autonomous remediation across AWS, Azure, GCP.  
+- **Incident Response** → Reduce MTTR by up to 90% in ransomware simulations.  
+- **Compliance & Audit** → Generate replay logs and forensic snapshots for regulators.  
+- **Business Alignment** → Track remediation costs and ROI for executive dashboards.  
+
+---
+
+## 🛠️ Getting Started
 ```bash
-python3 aced_v7.py
+
+
+# Run with default configuration
+python aced.py --config default
