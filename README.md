@@ -10,7 +10,7 @@ Built to adapt, learn, and remediate incidents across AWS and Azure environments
 
 Here’s a snapshot of ACED V7.0 running a high-severity incident simulation:
 
-!aced v7 babyyyy.png (screenshots/aced_v7_output.png)
+![ACED V7.0 Output](screenshots/aced_v7_output.png)
 
 *Strategy: rotate keys, revoke credentials, isolate compromised resources. Confidence: 100%. Containment: False.*
 
