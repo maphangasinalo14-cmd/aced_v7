@@ -14,7 +14,7 @@ Built entirely in **pure Python** with **zero external dependencies**, ACED V8.0
 
 Below is a screenshot of ACED V8.0 in action, showing the autonomous healing engine generating remediation strategies with confidence scoring and replay logging:
 
-![ACED V8.0 Screenshot](./screenshot.png)
+![ACED V8.0 Screenshot = file name: aced v7 babyyyy.png  
 
 
 ## ✨ Enterprise-Grade Features
