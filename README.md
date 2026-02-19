@@ -1,13 +1,13 @@
-# ACED V8.0 – Ultimate Production-Ready Autonomous Healing Engine
+# ACED V8.0 – Ultimate Prototype Autonomous Healing Engine
 
 **Author:** Sinalo Maphanga  
-**Version:** 8.0.0 – Ultimate Production Edition  
+**Version:** 8.0.0 – Ultimate Prototype Edition  
 **License:** Commercial  
 
 ---
 
 ## 🚀 Overview
-ACED (Autonomous Cybersecurity Engine for Defense) is a **production-ready autonomous healing engine** designed to reduce Mean Time to Remediation (MTTR) in enterprise environments.  
+ACED (Autonomous Cybersecurity Engine for Defense) is a **prototype autonomous healing engine** designed to reduce Mean Time to Remediation (MTTR) in enterprise environments.  
 Built entirely in **pure Python** with **zero external dependencies**, ACED V8.0 integrates **Monte Carlo Tree Search (MCTS)** decision logic, **multi-cloud support**, and **policy-based RBAC constraints** to deliver real-time, self-learning incident response.
 
 ---## 📊 Example Output
@@ -26,7 +26,7 @@ Below is a screenshot of ACED V8.0 in action, showing the autonomous healing eng
 - ✅ Rollback capability for all actions  
 - ✅ Complete audit trail with replay capability  
 - ✅ Confidence scoring and risk assessment  
-- ✅ Production-grade logging with rotation & error handling  
+- ✅ Prototype-grade logging with rotation & error handling  
 - ✅ Metrics collection and performance tracking  
 - ✅ Dry-run mode with full simulation  
 - ✅ Real AWS/Azure API signatures for deployment readiness  
