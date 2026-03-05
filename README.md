@@ -1,8 +1,6 @@
-# ACED .0 – Ultimate Prototype Autonomous Healing Engine
+# ACED – Ultimate Prototype Autonomous Healing Engine
 
 **Author:** Sinalo Maphanga  
-**Version:** 8.0.0 
-**License:** Commercial  
 
 ---
 
