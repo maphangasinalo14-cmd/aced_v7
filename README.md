@@ -1,18 +1,18 @@
-# ACED V8.0 – Ultimate Prototype Autonomous Healing Engine
+# ACED .0 – Ultimate Prototype Autonomous Healing Engine
 
 **Author:** Sinalo Maphanga  
-**Version:** 8.0.0 – Ultimate Prototype Edition  
+**Version:** 8.0.0 
 **License:** Commercial  
 
 ---
 
 ## 🚀 Overview
 ACED (Autonomous Cybersecurity Engine for Defense) is a **prototype autonomous healing engine** designed to reduce Mean Time to Remediation (MTTR) in enterprise environments.  
-Built entirely in **pure Python** with **zero external dependencies**, ACED V8.0 integrates **Monte Carlo Tree Search (MCTS)** decision logic, **multi-cloud support**, and **policy-based RBAC constraints** to deliver real-time, self-learning incident response.
+Built entirely in **pure Python** with **zero external dependencies**, ACED integrates **Monte Carlo Tree Search (MCTS)** decision logic, **multi-cloud support**, and **policy-based RBAC constraints** to deliver real-time, self-learning incident response.
 
 ---## 📊 Example Output
 
-Below is a screenshot of ACED V8.0 in action, showing the autonomous healing engine generating remediation strategies with confidence scoring and replay logging:
+Below is a screenshot of ACED in action, showing the autonomous healing engine generating remediation strategies with confidence scoring and replay logging:
 
 ![ACED V8.0 Screenshot = file name: aced v7 babyyyy.png  
 
@@ -40,12 +40,6 @@ Below is a screenshot of ACED V8.0 in action, showing the autonomous healing eng
 - **Action Generator** → Produces remediation actions (credential revocation, isolation, termination, key rotation, IP blocking) with cost estimation.  
 - **System State Tracker** → Maintains complete resource, threat, and business impact state with caching and hashing for performance.  
 - **Audit & Metrics** → Logs every action, generates replayable incident trails, and tracks ROI/performance metrics.  
-
----
-
-## 🔄 Evolution: V7.0 → V8.0
-- **V7.0**: Research-grade engine with adaptive reward functions, replay logging, and confidence scoring.  
-- **V8.0**: Hardened, enterprise-ready platform with RBAC, rollback, cost/ROI tracking, multi-cloud support, and production-grade logging.  
 
 ---
 
